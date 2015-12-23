@@ -2,7 +2,7 @@ class HomeController < ApplicationController
 
   # this is mapped to the root route
   def index
-    render text: 'Hello, this is the root of the app'
+    render text: 'This is the slow response app, use it by typing: http://<severname>/slow?seconds=1'
   end
 
   # we will read the field parameters sent in the URL
